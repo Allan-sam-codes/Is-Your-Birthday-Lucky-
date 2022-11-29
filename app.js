@@ -3,6 +3,7 @@ const luckyNumber = document.querySelector("#lucky-number");
 const checkNumberButton = document.querySelector("#check-btn");
 const outputBox = document.querySelector("#output-box")
 
+
 function compareValues(sum, luckyNumber) {
     //console.log(sum, luckyNumber)
     if (sum % luckyNumber === 0) {
@@ -30,5 +31,11 @@ function calculateSum(dob) {
     }
     return sum;
 }
+
+
+
+
+
+
 
 checkNumberButton.addEventListener('click', checkBirthDateIsLucky)
